@@ -1,12 +1,12 @@
-EMS System – Smart Environmental Monitoring System
-Description
+--------EMS System – Smart Environmental Monitoring System---------
+* Description
 
 EMS (Environmental Monitoring System) is an embedded system project developed using STM32L475.
 The system monitors temperature and gas concentration and automatically reacts using LEDs, a buzzer, and a ventilation system.
 
 This project was implemented in C using STM32CubeIDE and HAL drivers.
 
-Features
+*Features
 
 Push-button ON/OFF control
 
@@ -36,7 +36,7 @@ Non-blocking buzzer control
 
 Hysteresis to prevent oscillation around thresholds
 
-System Architecture
+* System Architecture
 
 The system is based on a Finite State Machine with the following states:
 
@@ -60,7 +60,7 @@ ST_AL_BOTH
 
 This architecture ensures structured logic, scalability, and real-time responsiveness.
 
-Hardware Components
+* Hardware Components
 
 STM32L475VG (B-L475E-IOT01A)
 
@@ -78,7 +78,7 @@ Buzzer
 
 DC fan controlled via MOSFET
 
-Software Details
+* Software Details
 
 Programming language: C
 
@@ -86,7 +86,7 @@ IDE: STM32CubeIDE
 
 Drivers: STM32 HAL
 
-Communication protocols:
+* Communication protocols:
 
 I2C (LCD and temperature sensor)
 
@@ -94,7 +94,7 @@ ADC (gas sensor)
 
 Timing management using HAL_GetTick()
 
-Future Improvements
+* Future Improvements
 
 Bluetooth (BLE) integration
 
