@@ -1,7 +1,0 @@
-Debug/
-Release/
-*.o
-*.d
-*.elf
-*.map
-*.log
